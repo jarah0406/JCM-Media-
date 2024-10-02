@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JCM Media</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0a0f1f;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: #141e30;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            color: #00ff99;
+            text-transform: uppercase;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #00ff99;
+        }
+
+        section {
+            padding: 100px 20px;
+            min-height: 100vh;
+        }
+
+        #home {
+            background: linear-gradient(135deg, #141e30, #243b55);
+            text-align: center;
+            padding-top: 200px;
+        }
+
+        #home h2 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        #home p {
+            font-size: 1.3rem;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            background: #00ff99;
+            color: #141e30;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #00cc7a;
+        }
+
+        #about, #services, #contact {
+            background: #101522;
+        }
+
+        h2 {
+            color: #00ff99;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .service-item {
+            display: inline-block;
+            width: 30%;
+            margin: 1%;
+            text-align: center;
+            padding: 20px;
+            background: #141e30;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .service-item:hover {
+            transform: scale(1.05);
+        }
+
+        .service-item h3 {
+            font-size: 1.5rem;
+            color: #fff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #141e30;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>JCM Media</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Helping Small Creators Grow</h2>
+        <p>At JCM Media, we provide strategies and support to help you gain more followers and increase your viewers.</p>
+        <button class="btn">Get Started</button>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We specialize in helping small content creators by offering personalized solutions tailored to their needs.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-item">
+            <h3>Content Strategy</h3>
+            <p>We design unique content strategies to help you reach your goals.</p>
+        </div>
+        <div class="service-item">
+            <h3>Social Media Growth</h3>
+            <p>Expand your reach on social platforms and gain more followers.</p>
+        </div>
+        <div class="service-item">
+            <h3>Audience Engagement</h3>
+            <p>Engage your audience with compelling content and campaigns.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Interested in working with us? Reach out and let's start growing your audience.</p>
+    </section>
+
+    <footer>
+        <p>© 2024 JCM Media. All rights reserved.</p>
+    </footer>
+</body>
+</html>
